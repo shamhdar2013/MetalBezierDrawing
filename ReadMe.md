@@ -75,7 +75,3 @@ Potential improvements include:
 ## Technologies
 
 Swift · SwiftUI · UIKit · Metal · MetalKit · SIMD
-
-## Demo
-
-A short iPhone Simulator screen recording is included separately to demonstrate freehand drawing and canvas clearing.
