@@ -1,9 +1,3 @@
-//
-//  ReadMe.md
-//  MetalBezierDrawing
-//
-//  Created by radhika sharma on 11/2/26.
-//
 
 # MetalBezierDrawing
 
