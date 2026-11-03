@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DF0823673099671C002C4007 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF08236630996716002C4007 /* DrawingView.swift */; };
+		DF0823693099678F002C4007 /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF08236830996789002C4007 /* MetalRenderer.swift */; };
+		DF08236F309968E6002C4007 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = DF08236E309968E6002C4007 /* Shader.metal */; };
+		DF08237130996FAB002C4007 /* Stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF08237030996FAB002C4007 /* Stroke.swift */; };
+		DF0823733099728E002C4007 /* BezierTessellator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0823723099728E002C4007 /* BezierTessellator.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		DF08234A30996606002C4007 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +35,12 @@
 		DF08233C30996605002C4007 /* MetalBezierDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalBezierDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF08234930996606002C4007 /* MetalBezierDrawingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalBezierDrawingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF08235330996606002C4007 /* MetalBezierDrawingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalBezierDrawingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF08236630996716002C4007 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		DF08236830996789002C4007 /* MetalRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
+		DF08236E309968E6002C4007 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
+		DF08237030996FAB002C4007 /* Stroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stroke.swift; sourceTree = "<group>"; };
+		DF0823723099728E002C4007 /* BezierTessellator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierTessellator.swift; sourceTree = "<group>"; };
+		DF0823A4309982DA002C4007 /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = ReadMe.md; path = /Users/radhikasharma/TestSampleCode/MetalBezierDrawing/ReadMe.md; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +89,12 @@
 		DF08233330996605002C4007 = {
 			isa = PBXGroup;
 			children = (
+				DF0823723099728E002C4007 /* BezierTessellator.swift */,
+				DF08237030996FAB002C4007 /* Stroke.swift */,
+				DF08236E309968E6002C4007 /* Shader.metal */,
+				DF0823A4309982DA002C4007 /* ReadMe.md */,
+				DF08236830996789002C4007 /* MetalRenderer.swift */,
+				DF08236630996716002C4007 /* DrawingView.swift */,
 				DF08233E30996605002C4007 /* MetalBezierDrawing */,
 				DF08234C30996606002C4007 /* MetalBezierDrawingTests */,
 				DF08235630996606002C4007 /* MetalBezierDrawingUITests */,
@@ -236,6 +256,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF0823693099678F002C4007 /* MetalRenderer.swift in Sources */,
+				DF08237130996FAB002C4007 /* Stroke.swift in Sources */,
+				DF0823673099671C002C4007 /* DrawingView.swift in Sources */,
+				DF0823733099728E002C4007 /* BezierTessellator.swift in Sources */,
+				DF08236F309968E6002C4007 /* Shader.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
